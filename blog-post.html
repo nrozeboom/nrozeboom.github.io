@@ -134,7 +134,9 @@
             </footer>
           </blockquote-->
 
-          <p>The prepared dataset have to flow into the model. So it is time to setup the </p>
+          <p>The prepared dataset have to flow into the model. So it is time to setup the function that will build our neural network model. In the code snippet that you see here below four layers are build. The first layer has as many nodes as is defined by the input shape. input_shape is equal to the amount of features, here it is 13. Subsequently two hidden layer are being created with each 64 nodes. At the end one output is expected, so we have an output layer that exist of one node. Notice in line 5 how the input shape is mentioned after the first hidden layer. In the model though the input nodes come first and then the hidden layer. </p>
+
+          <p>An activation attribute relu is used here. With activation an activation function is meant. Relu stands for rectified linear unit. This is just one of several activation functions that exists. </p>
 
           <script src="https://gist.github.com/nrozeboom/b9c746f2bf766b9364c92efe022abf2b.js"></script>
 
