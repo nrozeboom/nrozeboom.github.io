@@ -81,7 +81,7 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Build an app for predicting Boston house prices
+      <h1 class="mt-4 mb-3">Build an app for predicting house prices
         <small>by
           <a href="#">Niels Rozeboom</a>
         </small>
@@ -107,20 +107,20 @@
           <hr>
 
           <!-- Date/Time -->
-          <p>Posted on Augus 1, 2018 at 12:00 PM</p>
+          <p>Posted on July 26., 2018 at 14:00 PM</p>
 
           <hr>
 
           <!-- Post Content -->
           <p class="lead">With this application you can predict what the house prices were in Boston back in the 1970s. The prediction is based on a deep learning model that was being trained with the Boston house price dataset.</p>
 
-          <p>This dataset comes together with the keras library that we will use for this example. Besides KERAS also the sklearn provides the same dataset. This one gives more insights into contents and size of the dataset. For example you can get a description of the dataset. See also the code snippets here below. I also found this <a href="https://medium.com/@haydar_ai/learning-data-science-day-9-linear-regression-on-boston-housing-dataset-cd62a80775ef">webpage</a> a help in understanding the dataset. </p>
+          <p>This dataset comes with the keras library that we will use for this example. Please have a look at <a href="http://lib.stat.cmu.edu/datasets/boston"> the contents of the dataset</a>. There are a total of 506 rows of data with 13 columns. Every row has one output value and that is the price of the house. </p>
 
-          <script src="https://gist.github.com/nrozeboom/061f2e6ff92bb379331fe43efb3f96ad.js"></script>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+          <p>To start working with this dataset we have to load this dataset from KERAS. If you want to do this, just copy the 2 lines of code you see here below. As you might see, the dataset is getting split in a train and test dataset. The train dataset is then a subset which we use to train the model. The test dataset is a smaller subset we will use to test the predictions of the model. </p>
 
           <script src="https://gist.github.com/nrozeboom/5744a57778f0d7a13497947046eac6f8.js"></script>
+
+          <p>So far so good and ´straightforward. Now it is getting a little bit tricky, because we have to prepare the dataset so we can use it to create our model. So what do we have to do? We have to normalize the data first. But what does that mean? That means that you have to scale back the  </p>
 
 
           <blockquote class="blockquote">
